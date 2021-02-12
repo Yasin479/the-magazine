@@ -1,0 +1,163 @@
+#landing {
+  position: relative;
+  height: 90vh;
+  color: #0e0e0e;
+  background-image: url(../images/bench-accounting-nvzvOPQW0gc-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+#landing .navbar {
+  padding: 2% 0 0 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#landing .navbar-brand {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 0 0 0 2%;
+}
+
+#landing .navbar-nav {
+  margin: 0 7% 0 0;
+}
+
+#landing .nav-item {
+  font-size: 1rem;
+}
+
+#landing main {
+  text-align: center;
+  margin-top: 15%;
+  padding: 0 4%;
+}
+
+#landing main h1 {
+  font-size: 2.8rem;
+}
+
+#landing main span {
+  font-weight: 700;
+}
+
+#landing .main-text {
+  margin-top: 1%;
+  color: #5c5c5c;
+}
+
+#landing .main-btn-wrapper {
+  margin-top: 3%;
+}
+
+#landing .main-btn {
+  font-size: 1.2rem;
+}
+
+#articles {
+  padding: 2% 10%;
+}
+
+#articles h5 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+#articles p {
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+}
+
+#about {
+  padding: 3% 10%;
+  background-color: #a34343;
+}
+
+#about .carousel-heading {
+  font-size: 1.5rem;
+}
+
+#contact {
+  background-color: whitesmoke;
+  padding: 7% 24%;
+}
+
+#contact .contact-heading {
+  font-weight: 700;
+}
+
+#contact .contact-description {
+  font-size: 0.9rem;
+  color: #5c5c5c;
+}
+
+#contact .input-group-text {
+  font-size: 0.9rem;
+}
+
+#contact .form-control:focus {
+  border-color: #a34343;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(163, 67, 67, 0.5);
+          box-shadow: 0 0 0 0.2rem rgba(163, 67, 67, 0.5);
+}
+
+#contact .submit-btn {
+  font-family: "Merriweather", serif;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #a34343;
+  padding: 2%;
+}
+
+footer .footer-text {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+footer .social-icons {
+  font-size: 1.3rem;
+  color: #c4c4c4;
+  margin: 0 10px;
+  cursor: pointer;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+footer .social-icons:hover {
+  color: #fff;
+}
+
+footer .copyright {
+  font-size: 0.9rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  font-family: "Merriweather", serif;
+}
+/*# sourceMappingURL=styles.css.map */

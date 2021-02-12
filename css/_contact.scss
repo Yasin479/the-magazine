@@ -1,0 +1,26 @@
+#contact {
+  background-color: whitesmoke;
+  padding: 7% 24%;
+
+  .contact-heading {
+    font-weight: 700;
+  }
+
+  .contact-description {
+    font-size: 0.9rem;
+    color: #5c5c5c;
+  }
+
+  .input-group-text {
+    font-size: 0.9rem;
+  }
+
+  .form-control:focus {
+    border-color: $accentColor;
+    box-shadow: 0 0 0 0.2rem rgba(163, 67, 67, 0.5);
+  }
+
+  .submit-btn {
+    font-family: $fontFamilyPrimary;
+  }
+}

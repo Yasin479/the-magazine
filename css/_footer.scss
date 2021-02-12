@@ -1,0 +1,28 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $accentColor;
+  padding: 2%;
+
+  .footer-text {
+    color: #fff;
+    font-size: 0.9rem;
+  }
+
+  .social-icons {
+    font-size: 1.3rem;
+    color: #c4c4c4;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .copyright {
+    font-size: 0.9rem;
+  }
+}

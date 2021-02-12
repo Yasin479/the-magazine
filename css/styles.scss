@@ -1,0 +1,21 @@
+@import "./variables";
+@import "./landing";
+@import "./articles";
+@import "./about";
+@import "./contact";
+@import "./footer";
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+  font-family: $fontFamilyPrimary;
+}
