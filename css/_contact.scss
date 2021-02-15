@@ -1,6 +1,6 @@
 #contact {
   background-color: whitesmoke;
-  padding: 7% 24%;
+  padding: 7% 22%;
 
   .contact-heading {
     font-weight: 700;
@@ -22,5 +22,19 @@
 
   .submit-btn {
     font-family: $fontFamilyPrimary;
+  }
+}
+
+// Media Queries
+
+@media (max-width: 850px) {
+  #contact {
+    padding: 7% 16%;
+  }
+}
+
+@media (max-width: 550px) {
+  #contact {
+    padding: 7% 8%;
   }
 }
