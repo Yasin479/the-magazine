@@ -40,6 +40,7 @@
 
 #landing main span {
   font-weight: 700;
+  font-family: "Poppins", sans-serif;
 }
 
 #landing .main-text {
@@ -78,9 +79,18 @@
   font-size: 1.5rem;
 }
 
+@media (max-width: 768px) {
+  .carousel-heading {
+    font-size: 0.7rem;
+  }
+  .carousel-description {
+    display: none;
+  }
+}
+
 #contact {
   background-color: whitesmoke;
-  padding: 7% 24%;
+  padding: 7% 22%;
 }
 
 #contact .contact-heading {
@@ -104,6 +114,18 @@
 
 #contact .submit-btn {
   font-family: "Merriweather", serif;
+}
+
+@media (max-width: 850px) {
+  #contact {
+    padding: 7% 16%;
+  }
+}
+
+@media (max-width: 550px) {
+  #contact {
+    padding: 7% 8%;
+  }
 }
 
 footer {
@@ -144,6 +166,12 @@ footer .social-icons:hover {
 
 footer .copyright {
   font-size: 0.9rem;
+}
+
+@media (max-width: 535px) {
+  .footer-text {
+    text-align: center;
+  }
 }
 
 html {
